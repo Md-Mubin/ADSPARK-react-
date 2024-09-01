@@ -12,7 +12,7 @@ import Article_page          from "./component/Article_page"
 import Thought_speakers      from "./component/Thought_speakers"
 import CaseStudy_Corona      from "./component/CaseStudy_Corona"
 import Spark_exellence_award from "./component/Spark_exellence_award"
-import Job_apply from "./component/Job_apply"
+import Job_apply             from "./component/Job_apply"
 
 
 function App() {
