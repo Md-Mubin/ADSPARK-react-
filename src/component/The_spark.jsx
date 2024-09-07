@@ -9,9 +9,6 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 const The_spark = () => {
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-
             {/* ==================== spark Part ==================== */}
             <section className='w-full relative'>
                 <img src="/spark_banner.png" alt="spark_banner" />
@@ -143,9 +140,6 @@ const The_spark = () => {
                     <Link to= '/thought of speakers' className='flex justify-center mt-40'> <button className='w-[380px] py-4 font-monstereat font-medium text-2xl border-2 rounded-full hover:bg-white hover:text-black'>View All</button></Link>
                 </ul>
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }

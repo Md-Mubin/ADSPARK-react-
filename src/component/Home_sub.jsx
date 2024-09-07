@@ -6,9 +6,6 @@ import Footer   from './Footer'
 const Home_sub = () => {
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-
             {/* ==================== Subjected Home Part ==================== */}
             <section className='w-full '>
                 <ul className='flex justify-center'>
@@ -118,9 +115,6 @@ const Home_sub = () => {
                     <p>President Privact Social Sector</p>
                 </ul>
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }

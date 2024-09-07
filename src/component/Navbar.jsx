@@ -1,12 +1,17 @@
 // ========================== All Imports
 import React    from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
+
+    const location = useLocation()
+
+    const forHomepage = location.pathname === "/"
+
     return (
         <>
             {/* ==================== Navbar Part ==================== */}
-            <nav className='w-full py-4 bg-gradient-to-r from-[#ff8364] via-purple-700 to-[#1794fa] sticky top-0 z-[1000] '>
+            <nav className={forHomepage ? "absolute w-full z-[1000] py-4" : "w-full py-4 bg-gradient-to-r from-[#ff8364] via-purple-700 to-[#1794fa] sticky top-0 z-[1000]"}>
                 <ul className='w-[1700px] container flex justify-between '>
 
                     {/* ------------ Logo Part + Goes To Home Page ------------ */}

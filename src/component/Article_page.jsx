@@ -7,9 +7,6 @@ import { VscAccount } from 'react-icons/vsc'
 const Article_page = () => {
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-
             {/* ==================== Article Part ==================== */}
             <section className='w-[1700px] container py-20 '>
 
@@ -64,9 +61,6 @@ const Article_page = () => {
                     <p className='absolute top-6 font-monstereat font-semibold text-[#1A4A83] text-4xl'>More Articles :</p>
                 </ul>
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }

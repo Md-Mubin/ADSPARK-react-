@@ -18,9 +18,6 @@ const Join_ourTeam = () => {
 
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-
             {/* ==================== Join Part ==================== */}
             <section className='w-full relative'>
                 <img src="/join_our_team.png" alt="banner_image" />
@@ -97,9 +94,6 @@ const Join_ourTeam = () => {
                     </li>
                 </ul>
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }

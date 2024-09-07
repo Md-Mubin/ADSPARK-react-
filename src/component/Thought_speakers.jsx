@@ -7,9 +7,6 @@ import { Link } from 'react-router-dom'
 const Thought_speakers = () => {
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-
             {/* ==================== Speakers Part ==================== */}
             <section className='w-full py-[100px]'>
                 <p className='font-monstereat italic text-base text-black mx-[45px]'>The Spark / Thoughtsparkers</p>
@@ -87,9 +84,6 @@ const Thought_speakers = () => {
                 {/* ------- view more button ------- */}
                 <a href="#" className='flex justify-center mb-10'><button className='w-[380px] h-[75px] border-2 border-[#1E72B4] rounded-full font-monstereat font-medium text-2xl text-[#1E72B4] hover:bg-[#1E72B4] hover:text-white duration-200 hover:scale-110 will-change-transform'>View More</button></a>
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }

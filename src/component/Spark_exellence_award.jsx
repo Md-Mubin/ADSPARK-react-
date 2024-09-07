@@ -6,9 +6,6 @@ import Footer from './Footer'
 const Spark_exellence_award = () => {
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-
             {/* ==================== Award Part ==================== */}
             <section className='container w-[1700px] mb-10'>
 
@@ -36,9 +33,6 @@ const Spark_exellence_award = () => {
                     <button className='font-monstereat font-medium text-4xl text-[#666666] '>Next</button>
                 </ul>
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }

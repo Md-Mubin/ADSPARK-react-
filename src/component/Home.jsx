@@ -1,6 +1,5 @@
 // ========================== All Imports
 import React    from 'react'
-import Navbar   from './Navbar'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -9,9 +8,9 @@ const Home = () => {
       <section className='w-full h-screen relative flex justify-center'>
 
         {/* ==================== Navbar Part ==================== */}
-        <ul className='w-full absolute'>
+        {/* <ul className='w-full absolute'>
           <Navbar />
-        </ul>
+        </ul> */}
 
         {/* ==================== Banenr Part ==================== */}
         <img src="/home_banner.png" alt="home_banner_img" className='w-full' />

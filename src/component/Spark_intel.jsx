@@ -7,9 +7,6 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 const Spark_intel = () => {
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-
             {/* ==================== What We Do Part ==================== */}
             <section className='container w-[1700px] mt-[60px] mb-[100px]'>
                 <p className='font-monstereat font-extralight italic text-base'>What We Do / Spark Intelligence</p>
@@ -36,9 +33,6 @@ const Spark_intel = () => {
                     <img src="/sparkIntelWorkBoos.png" alt="spark_workImg" className='w-[800px] h-[500px]' />
                 </ul>
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }

@@ -1,12 +1,18 @@
 // ========================== All Imports
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { useLocation } from 'react-router-dom'
 
 const Footer = () => {
+
+    const location = useLocation()
+
+    const forHomepage = location.pathname === "/"
+
     return (
         <>
            {/* ==================== Footer Part ==================== */}
-            <footer>
+            <footer className={forHomepage ? "hidden" : "block"}>
                 <section className=' py-20 bg-[#194980]'>
                     <ul className='container w-[1200px] flex justify-between'>
                         <ul className='font-monstereat font-medium'>

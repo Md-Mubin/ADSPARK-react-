@@ -7,9 +7,6 @@ import { Link }  from 'react-router-dom'
 const What_we_do = () => {
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-
             {/* ==================== What We Do Part ==================== */}
             <section className='w-full relative'>
                 <ul className='container w-[1700px] py-[100px] flex flex-col gap-[65px]'>
@@ -116,9 +113,6 @@ const What_we_do = () => {
                     </ul>
                 </ul>
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }

@@ -6,9 +6,6 @@ import Footer   from './Footer'
 const CaseStudy_Corona = () => {
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-
             {/* ==================== Case Study Part ==================== */}
             <section className='container w-[1700px] py-20'>
                 
@@ -60,9 +57,6 @@ const CaseStudy_Corona = () => {
                 </ul>
 
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }

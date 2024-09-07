@@ -7,9 +7,6 @@ import { BiPlus } from 'react-icons/bi'
 const Who_we_are = () => {
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-            
             {/* ==================== Who We Are Part ==================== */}
             <section className='w-full relative'>
                 <img src="/Who We Are Banner.png" alt="banner_image" />
@@ -134,9 +131,6 @@ const Who_we_are = () => {
                     Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Ut sem nulla pharetra diam sit amet. Tortor id aliquet lectus proin nibh nisl condimentum. Neque sodales ut etiam sit amet. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Vulputate enim nulla aliquet porttitor lacus luctus.
                 </p>
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }

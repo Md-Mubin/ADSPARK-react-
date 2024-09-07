@@ -7,9 +7,6 @@ import { Link } from 'react-router-dom'
 const Our_work = () => {
     return (
         <>
-            {/* ==================== Navbar Part ==================== */}
-            <Navbar />
-
             {/* ==================== Our Works Part ==================== */}
             <section className='w-full relative'>
 
@@ -86,9 +83,6 @@ const Our_work = () => {
                     </button>
                 </div>
             </section>
-
-            {/* ==================== Footer Part ==================== */}
-            <Footer />
         </>
     )
 }
