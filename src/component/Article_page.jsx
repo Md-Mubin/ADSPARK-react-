@@ -4,7 +4,7 @@ import Navbar         from './Navbar'
 import Footer         from './Footer'
 import { VscAccount } from 'react-icons/vsc'
 
-const Article_page = () => {
+const Article_page = () => { 
     return (
         <>
             {/* ==================== Article Part ==================== */}
